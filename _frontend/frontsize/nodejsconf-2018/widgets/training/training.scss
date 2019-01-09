@@ -1,0 +1,61 @@
+@include block ('training-intro') {
+  margin-top: s(8);
+  margin-bottom: s(8);
+
+  @include element ('title') {
+    @include title-uppercase;
+    color: $color-text-info;
+    font-size: 60px;
+    line-height: 1;
+    margin: auto;
+    margin-bottom: -25px;
+    margin-top: s(-9);
+    text-align: center;
+    z-index: -1;
+
+    @include media ('>=mobile-large') {
+      font-size: 90px;
+      margin-top:  s(-8);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 150px;
+      margin-top: s(-10);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 205px;
+      user-select: none;
+    }
+  }
+
+  @include element ('date') {
+    @include where-when;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: s(1);
+    text-align: center;
+
+    @include media ('>=mobile-large') {
+      font-size: 28px;
+      margin-bottom: s(2);
+      margin-left: s(4);
+      margin-top: s(-8);
+      text-align: left;
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 45px;
+      margin-bottom: s(4);
+      margin-left: s(8);
+      margin-top: s(-12);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 45px;
+      margin-bottom: s(4);
+      margin-left: s(8);
+      margin-top: s(-17.5);
+    }
+  }
+}

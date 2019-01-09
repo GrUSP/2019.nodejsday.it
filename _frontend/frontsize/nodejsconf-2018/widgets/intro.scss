@@ -1,0 +1,141 @@
+@include block ('intro') {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  height: 100vh;
+  position: relative;
+
+  @include modifier ('no-height') {
+    height: auto !important;
+  }
+
+  @include modifier ('reactjsday') {
+    background-color: $color-background-info;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  @include media ('<mobile-large') {
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  @include media ('>=mobile-large') {
+    height: 100vh;
+    margin-top: 20px;
+  }
+
+  @include media ('>=tablet-small') {
+    height: 430px;
+  }
+
+  @include media ('>=tablet-large') {
+    height: 750px;
+  }
+
+  @include media ('>=desktop-large') {
+    height: 100vh;
+  }
+
+  @include element ('title') {
+    font-family: $font-family-header;
+    font-size: 38px;
+    margin-top: s(4);
+    color: #ffffff;
+
+
+    @include media ('>=mobile-large') {
+      font-size: 60px;
+      margin-top: s(7);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 80px;
+      margin-top: s(9);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 120px;
+      margin-top: s(21);
+    }
+
+    @include media ('>=desktop-large') {
+      font-size: 130px;
+    }
+  }
+
+  @include element ('where-when') {
+    @include where-when;
+    font-size: 40px;
+    color: #ffffff;
+
+    @include media ('<tablet-small') {
+      font-size: 20px;
+    }
+  }
+
+  @include element ('register') {
+    background-color: $color-background-action;
+    bottom: s(-13);
+    color: $color-text-action;
+    display: block;
+    font-family: $font-family-header;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: s(9);
+    padding: s(2) s(4);
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.25s ease-out;
+    width: 50%;
+    z-index: 1;
+    
+    &:hover {
+      background-color: lighten($color-background-action, 5%);
+    }
+
+    @include modifier ('sold-out') {
+      &:hover {
+        background-color: $color-background-action;
+
+        @include media ('>=tablet-large') {
+          &::after {
+            color: $color-text;
+            content: 'maybe next time!';
+          }
+        }
+      }
+    }
+
+    @include media ('<desktop-small') {
+      text-align: center;
+      width: 100%;
+
+      @include element ('icon') {
+        display: none;
+      }
+    }
+  }
+
+  @include element ('icon') {
+    float: left;
+    font-size: 40px;
+    position: relative;
+    transition: left 0.125s ease-out;
+  }
+}
+
+.intro--reactjsday:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0.5;
+   
+}

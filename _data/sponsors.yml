@@ -1,0 +1,94 @@
+# place images in:
+# img/sponsors/file.jpg
+# img/sponsors/guide.pdf
+
+pdf: grusp_2017.pdf
+call_for_sponsor: false
+
+main:
+  price: € 10,000
+  offer:
+    - 1 dedicated session (30 mins max)
+    - One direct email marketing campaign
+    - Access to opt-in attendees list
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own rollup in room
+    - Stand (table 2m x 1m)
+    - Your own flyer and/or gadget in folder
+    - 5 free tickets
+    - 5 tickets with 50% discount
+  max: 1
+  list:
+
+diamond:
+  price: € 5,000
+  offer:
+    - Access to opt-in attendees list
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own rollup in room
+    - Stand (table 2m x 1m)
+    - Your own flyer and/or gadget in folder
+    - 2 free tickets
+    - 5 tickets with 20% discount
+  max: 2
+  list:
+
+platinum:
+  price: € 3,000
+  offer:
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own rollup in room
+    - Stand (table 1m x 1m)
+    - Your own flyer and/or gadget in folder
+    - 1 free ticket
+    - 5 tickets with 15% discount
+  max: 4
+  list:
+
+gold:
+  price: € 1,000
+  offer:
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own rollup in room
+    - Your own flyer and/or gadget in folder
+    - 3 tickets with 15% discount
+  max: 8
+  list:
+    -
+      url: https://www.workwave.com/?utm_source=nodejsconf
+      image: workwave.svg
+    -
+      url: https://remote-developer.io/?utm_source=nodejsconf
+      image: remote-developer.svg
+
+
+silver:
+  price: € 500
+  offer:
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - Your logo on conference rollups
+    - Your own flyer and/or gadget in folder (provided by you)
+    - 3 tickets with 10% discount
+  max: 16
+  list:
+    -
+      url: http://www.ideato.it/?utm_source=nodejsconf
+      image: ideato.svg
+
+bronze:
+  price: € 300
+  offer:
+    - Your logo in pre-event communications
+    - Your logo on conference website
+    - 2 tickets with 10% discount
+  max: 32
+  list:

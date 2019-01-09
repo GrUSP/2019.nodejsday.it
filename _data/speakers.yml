@@ -1,0 +1,11 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+# description is actually the company the speaker is working for
+list:
+  # -
+  #   id: alessandro-aglietti
+  #   description:
+  #   image: alessandro-aglietti.jpg
+  #   first_name: Alessandro
+  #   last_name: Aglietti
+  #   twitter: creepsound

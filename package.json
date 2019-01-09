@@ -1,0 +1,32 @@
+{
+  "name": "nodejsconf",
+  "version": "0.0.1",
+  "description": "Conference site",
+  "main": "index.js",
+  "devDependencies": {
+    "dustman": "^1.11.55",
+    "frontsize": "git+https://github.com/ideatosrl/frontsize.git#372f2a6",
+    "gulp": "github:gulpjs/gulp#4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cp ./node_modules/dustman/gulpfile.js .",
+    "dev": "./node_modules/.bin/gulp -S --config dustman-nodejsconf.yml watch & jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrUSP/2018.nodejsconf.it.git"
+  },
+  "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrUSP/2018.nodejsconf.it/issues"
+  },
+  "homepage": "https://github.com/GrUSP/2018.nodejsconf.it#readme",
+  "dependencies": {
+    "dustman": "^1.11.55",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.1",
+    "npm": "^6.0.1"
+  }
+}

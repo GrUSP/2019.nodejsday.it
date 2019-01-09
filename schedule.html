@@ -1,0 +1,77 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='September 27th' %}
+
+  <div class="schedule" data-dates="11-16">
+    <table class="schedule__table">
+      <thead>
+      {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+      {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+      {% include schedule/event.html time='9.45-10.00' title='GrUSP presentation' fill='true' %}
+
+      {% include schedule/talk.html title='The State of Node.js Core' time='10.05-10.30' fill='true' %}
+      {% include schedule/talk.html title='GraphQL and me' time='10.35-11.00' fill='true' %}
+
+      {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
+
+      {% include schedule/talk.html title='Node.js: The Road to Workers' time='11.30-11.55' fill='true' %}
+      {% include schedule/talk.html title='Node.js as a feature-flipping supervisor through Git' time='12.00-12.50' fill='true' %}
+
+      {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
+
+      {% include schedule/talk.html title='Event loop tales on I/O bound Node.js applications' time='14.30-15.20' fill='true' %}
+      {% include schedule/talk.html title='Porting your Node.js app to serverless in 30 minutes' time='15.25-16.15' fill='true' %}
+
+      {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
+
+      {% include schedule/talk.html title='Monoliths always pay their debts' time='16.45-17.35' fill='true' %}
+
+      {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="11-16">
+    <table class="schedule__table">
+      <thead>
+      {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+      {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+      {% include schedule/event.html time='9.45-10.00' title='GrUSP presentation' fill='true' %}
+
+      {% include schedule/talk.html title='The State of Node.js Core' time='10.05-10.30' fill='true' %}
+      {% include schedule/talk.html title='GraphQL and me' time='10.35-11.00' fill='true' %}
+
+      {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
+
+      {% include schedule/talk.html title='Node.js: The Road to Workers' time='11.30-11.55' fill='true' %}
+      {% include schedule/talk.html title='Node.js as a feature-flipping supervisor through Git' time='12.00-12.50' fill='true' %}
+
+      {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
+
+      {% include schedule/talk.html title='Event loop tales on I/O bound Node.js applications' time='14.30-15.20' fill='true' %}
+      {% include schedule/talk.html title='Porting your Node.js app to serverless in 30 minutes' time='15.25-16.15' fill='true' %}
+
+      {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
+
+      {% include schedule/talk.html title='Monoliths always pay their debts' time='16.45-17.35' fill='true' %}
+
+      {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

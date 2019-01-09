@@ -1,0 +1,12 @@
+# -
+#   speaker_id: alessandro-aglietti
+#   title: Event loop tales on I/O bound Node.js applications
+#   extract: >
+#     At brumbrum.it we have a zoo of microservices, interaction between them is obviously carried out through REST APIs.
+#     Our www microservice, aka frontend, is an isomorphic/universal JavaScript application bounded between users and the
+#     zoo, lots of 1:n HTTP requests there.
+#     Taming this type of Node.js application in production to survive traffic spikes and other wild behaviors brought us
+#     to deeply understand Node.js non-blocking model: it's too easy to react to problems with CDN and infamous
+#     memory/thread allocations.
+#     Node.js non-blocking model comes with simplicity in mind. In many cases this simplicity allows you to build apps
+#     quickly. But when you reach the edge, simplicity means responsibility. Let's dive in!

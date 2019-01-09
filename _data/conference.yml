@@ -1,0 +1,24 @@
+name: NodeJS Italian Conference
+og_image: http://2019.nodejsday.it/img/themes/nodejsconf/ogimage.png
+og_description: NodeJS Italian Conference is about the latest developments and case studies in the Node's world
+slug: nodejsconf
+url: https://2019.nodejsday.it
+where_when: Verona, September 27th 2019
+year: 2019
+since: 2014
+call_for_paper_url: https://goo.gl/forms/rHSOn88FAz9992g32
+call_for_paper: true
+talks_available: false
+schedule_available: false
+training_available: false
+
+iubenda:
+  cookiePolicyId: 93825139
+  siteId: 1123530
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: nodejsconf.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-MW2P2QN
