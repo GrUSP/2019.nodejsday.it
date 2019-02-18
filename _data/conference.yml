@@ -13,12 +13,12 @@ schedule_available: false
 training_available: false
 
 iubenda:
-  cookiePolicyId: 93825139
-  siteId: 1123530
+  cookiePolicyId: 48494687
+  siteId: 1515952
   lang: it
   enableRemoteConsent: true
   localConsentDomain: nodejsconf.it
   rebuildIframe: true
 
 google:
-  tag_manager_id: GTM-MW2P2QN
+  tag_manager_id: GTM-KNTPZDS
