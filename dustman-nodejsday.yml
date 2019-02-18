@@ -23,12 +23,12 @@ css:
   themes:
     -
       autoprefixer: true
-      compile: _frontend/frontsize/nodejsconf-2018/import.scss
+      compile: _frontend/frontsize/nodejsday/import.scss
       csslint: false
-      file: nodejsconf.css
-      images: _frontend/frontsize/nodejsconf-2018/img/**/*.*
+      file: nodejsday.css
+      images: _frontend/frontsize/nodejsday/img/**/*.*
       merge: true
-      name: nodejsconf
+      name: nodejsday
       path: _frontend/temp/
       stylestats: false
     -
