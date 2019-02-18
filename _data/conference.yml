@@ -15,7 +15,7 @@ training_available: false
 iubenda:
   cookiePolicyId: 48494687
   siteId: 1515952
-  lang: it
+  lang: en
   enableRemoteConsent: true
   localConsentDomain: nodejsconf.it
   rebuildIframe: true
