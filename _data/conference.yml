@@ -17,7 +17,7 @@ iubenda:
   siteId: 1515952
   lang: en
   enableRemoteConsent: true
-  localConsentDomain: nodejsconf.it
+  localConsentDomain: nodejsday.it
   rebuildIframe: true
 
 google:
