@@ -12,12 +12,12 @@
           Browse past editions:
           <div class="footer__past-editions-items">
             {% for year in (site.data.conference.since..site.data.conference.year) %}
-              {% if year < 2016 %}
+              {% if year < 2016 or year > 2017 %}
                 {% if forloop.last == false %}
                   {% if forloop.first == false %}
                     <span>|</span>
                   {% endif %}
-                  <a class="footer__past-edition" href="http://{{ year }}.{{ site.data.conference.slug }}.it">{{ year }}</a>
+                  <a class="footer__past-edition" href="http://{{ year }}.nodejsconf.it">{{ year }}</a>
                 {% endif %}
               {% endif %}
             {% endfor %}
@@ -88,7 +88,7 @@
         </a>
         <div class="footer__grusp-footer">
           <p>
-            NodeJS Italian Conference is © by <a href="http://grusp.org">GrUSP</a> and its amazing Staff
+            Node.js Day is © by <a href="http://grusp.org">GrUSP</a> and its amazing Staff
           </p>
           <p>
             Contact us to <a href="mailto:info@grusp.org">info@grusp.org</a>

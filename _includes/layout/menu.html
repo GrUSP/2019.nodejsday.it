@@ -36,9 +36,9 @@
       <ul class="menu__list">
           {% if site.data.conference.call_for_paper %}
           <li class="menu__item">
-              <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="menu__button">
-            CFP
-          </a>
+            <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="menu__button">
+              Call for Papers
+            </a>
         </li>
         {% endif %}
         {% if site.data.conference.schedule_available %}
@@ -80,6 +80,11 @@
           </a>
         </li>
         {% endif %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/coc.html" class="menu__button">
+            Coc
+          </a>
+        </li>
         <li class="menu__item">
           <a href="{{ site.baseurl }}/venue.html" class="menu__button">
             Venue
