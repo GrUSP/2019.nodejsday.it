@@ -50,6 +50,9 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
+    -
+      url: https://engineering.dazn.com/?utm_source=nodejsday
+      image: dazn.svg
 
 gold:
   price: € 1,500
@@ -64,7 +67,7 @@ gold:
   max: 8
   list:
     -
-      url: https://www.workwave.com/?utm_source=nodejsconf
+      url: https://www.workwave.com/?utm_source=nodejsday
       image: workwave.svg
 
 silver:
@@ -79,7 +82,7 @@ silver:
   max: 16
   list:
     -
-      url: http://www.ideato.it/?utm_source=nodejsconf
+      url: http://www.ideato.it/?utm_source=nodejsday
       image: ideato.svg
 
 bronze:
@@ -90,3 +93,6 @@ bronze:
     - 2 tickets with 10% discount
   max: 32
   list:
+    -
+      url: https://balsamiq.com/?utm_source=nodejsday
+      image: balsamiq.svg
