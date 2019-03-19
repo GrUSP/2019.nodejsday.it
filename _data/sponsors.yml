@@ -69,6 +69,9 @@ gold:
     -
       url: https://www.workwave.com/?utm_source=nodejsday
       image: workwave.svg
+   -
+      url: https://www.linkme.it/?utm_source=nodejsday
+      image: linkme.svg
 
 silver:
   price: € 750
