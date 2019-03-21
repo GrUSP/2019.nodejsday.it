@@ -85,8 +85,8 @@ silver:
   max: 16
   list:
     -
-      url: http://www.ideato.it/?utm_source=nodejsday
-      image: ideato.svg
+      url: https://www.flowing.it/?utm_source=nodejsday
+      image: flowing.svg
 
 bronze:
   price: € 500
