@@ -4,9 +4,9 @@
   "description": "Conference site",
   "main": "index.js",
   "devDependencies": {
-    "dustman": "^1.11.55",
+    "dustman": "github:grusp/dustman",
     "frontsize": "git+https://github.com/ideatosrl/frontsize.git#372f2a6",
-    "gulp": "^4.0.0"
+    "gulp": "github:gulpjs/gulp"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/GrUSP/2019.nodejsday.it#readme",
   "dependencies": {
-    "dustman": "^1.11.55",
     "jquery": "^3.1.1",
     "moment": "^2.24.0"
   }

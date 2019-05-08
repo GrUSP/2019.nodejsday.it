@@ -18,7 +18,8 @@
   }
 
   @include element ('logo-image') {
-    @include logo-image;
+    @include logo-image(2);
+    vertical-align: middle;
   }
 
   @include element ('conf-name') {
