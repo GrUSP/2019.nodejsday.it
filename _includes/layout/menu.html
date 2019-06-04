@@ -41,6 +41,13 @@
             </a>
         </li>
         {% endif %}
+        {% if site.data.conference.scholarship_available %}
+       <li class=“menu__item”>
+         <a href=“{{ site.baseurl }}/scholarships.html” class=“menu__button”>
+           Scholarships
+         </a>
+       </li>
+       {% endif %}
         {% if site.data.conference.schedule_available %}
           <li class="menu__item">
             <a href="{{ site.baseurl }}/schedule.html" class="menu__button">
