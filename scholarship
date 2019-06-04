@@ -1,0 +1,51 @@
+---
+title: Scholarships
+---
+
+<div class="limit limit--top-margin">
+
+    <div class="scholarships-intro">
+        <h1 class="scholarships-intro__title">
+            Scholarships
+        </h1>
+        <h3 class="scholarships-intro__question">
+            Diversity and inclusivity matter
+        </h3>
+    </div>
+
+    <h2 class="row__title">Apply for a Scholarship</h2>
+    <div class="row">
+        <p class="row__column">
+            Our purpose is to create an <strong>accessible</strong> and <strong>welcoming</strong> conference, where people from various backgrounds could meet, feel safe and free to express theirselves. We want to enable all the people to attend our conferences, and <strong>promote an inclusive community.</strong>
+        </p>
+        <p class="row__column">
+            We are involved in many ways in order to build a better environment in tech for everyone. 
+            In 2016 we became <strong>Diversity Sponsor</strong> of <a href="https://www.kickstarter.com/projects/1817732114/the-phpdiversity-rainbow-elephpant">The PHPDiversity Rainbow Elephpant campaign</a> on Kickstarter when the project was seemingly about to end without making it. We are very proud that many others followed us and that the project reached its goal. 
+            In 2019 we sponsored and organised <a href="http://railsgirls.com/verona2019.html">RailsGirls Verona</a>, a free coding workshop for women.
+        </p>
+        <p class="row__column">
+            <strong>We know very well that for some people attending a conference could be difficult, because of personal or financial circumstances. That's why we offer discounted or free tickets especially to those who are underrepresented and marginalised in tech (women, members of the LGBTQIA+ community, people with disabilities, minorities, or other under-represented groups) and anybody who would otherwise be unable to attend without financial assistance.</strong>
+        </p>
+    </div>
+
+    <h2 class="row__title">Application</h2>
+    <div class="row">
+        <p class="row__column">
+            You are invited to <a href="https://forms.gle/Xct1kypRCjKS55rx8">apply for a single conference ticket for nodejsday.</a> We will notify all applicants regarding the outcome of their application. We don’t cover travel/accommodation expenses. 
+        </p>
+    </div>
+
+    <h2 class="row__title">Sponsor</h2>
+    <div class="row">
+        <p class="row__column">
+            We are looking for “diversity sponsor” to fund this program and enable GrUSP to offer more scholarships! If you are representing an amazing tech company that is looking to give back to the developer community, get in touch! 
+        </p>
+    </div>
+
+    <h2 class="row__title">Contact</h2>
+    <div class="row">
+        <p class="row__column">
+            May you have any questions please don’t hesitate to contact us at info@grusp.org.
+        </p>
+    </div>
+</div>
