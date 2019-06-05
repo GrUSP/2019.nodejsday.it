@@ -46,6 +46,11 @@
                 <a href="{{ site.baseurl }}/sponsor.html" class="button button--footer button--left">Sponsor</a>
               </div>
               {% endif %}
+              {% if site.data.conference.scholarship_available %}
+              <div class="footer__nav-item">
+                <a href="{{ site.baseurl }}/scholarships.html" class="button button--footer button--left">Scholarships</a>
+              </div>
+              {% endif %}
               {% if site.data.conference.talks_available %}
                 <div class="footer__nav-item">
                   <a href="{{ site.baseurl }}/talks.html" class="button button--footer button--left">Talks</a>
