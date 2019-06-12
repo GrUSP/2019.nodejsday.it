@@ -1,0 +1,5 @@
+@include block ('intro-coc') {
+  @include element ('title') {
+    color: $color-atlantis;
+  }
+}
