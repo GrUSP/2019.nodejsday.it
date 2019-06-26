@@ -1,12 +1,14 @@
-# -
-#   speaker_id: alessandro-aglietti
-#   title: Event loop tales on I/O bound Node.js applications
-#   extract: >
-#     At brumbrum.it we have a zoo of microservices, interaction between them is obviously carried out through REST APIs.
-#     Our www microservice, aka frontend, is an isomorphic/universal JavaScript application bounded between users and the
-#     zoo, lots of 1:n HTTP requests there.
-#     Taming this type of Node.js application in production to survive traffic spikes and other wild behaviors brought us
-#     to deeply understand Node.js non-blocking model: it's too easy to react to problems with CDN and infamous
-#     memory/thread allocations.
-#     Node.js non-blocking model comes with simplicity in mind. In many cases this simplicity allows you to build apps
-#     quickly. But when you reach the edge, simplicity means responsibility. Let's dive in!
+-
+  speaker_id: supriya-aggarwal
+  image: 
+  keynote: false
+  title: "Why GraphQL vs. Why not GraphQL"
+  extract: >
+    In the last few years, GraphQL has been growing in popularity. A lot of companies have started adopting this technology to build their APIs. It has been gaining a lot of traction. In this talk, we’ll first go on to see how GraphQL overcomes some of the major limitations of REST. Post that, we’ll discuss some points on the case against GraphQL so you can have a clearer idea of whether you need GraphQL, before you jump into using it at work.
+-
+  speaker_id: colin-ihrig
+  image: 
+  keynote: false
+  title: "Getting Started with gRPC and Node.js"
+  extract: >
+    gRPC is a language independent framework for making remote procedure calls used by large companies such as Netflix, Docker, Google, and more. gRPC leverages technologies such as HTTP2 and protocol buffers to create efficient network based applications. This talk provides an introduction to basic gRPC concepts, and shows how the framework can be used in both browser and Node.js applications. This talk will compare and contrast the various modules available to JavaScript developers, including grpc, @grpc/grpc-js, @grpc/proto-loader, grpc-server-js, and grpc-web. Finally, the talk will discuss certain architectural tradeoffs that come with gRPC-based systems.
