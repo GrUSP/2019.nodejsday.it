@@ -2,10 +2,17 @@
 # img/conf-name/speaker/file.jpg
 # description is actually the company the speaker is working for
 list:
-  # -
-  #   id: alessandro-aglietti
-  #   description:
-  #   image: alessandro-aglietti.jpg
-  #   first_name: Alessandro
-  #   last_name: Aglietti
-  #   twitter: creepsound
+  -
+    id: supriya-aggarwal
+    description: Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime, travelling, pigs, penguins and pineapple on pizza. Also, she can sleep literally anywhere.
+    image: supriya-aggarwal.jpg
+    first_name: Supriya
+    last_name: Aggarwal
+    twitter: 
+  -
+    id: colin-ihrig   
+    description: Colin Ihrig is a member of the Node.js Technical Steering Committee, a libuv collaborator, and a hapi.js core team member. Colin is the author of Pro Node.js for Developers, and co-author of Full Stack JavaScript Development with MEAN. Colin is currently an engineer at Joyent.
+    image: colin-ihrig.jpg
+    first_name: Colin
+    last_name: Ihrig 
+    twitter: cjihrig

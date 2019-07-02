@@ -72,10 +72,12 @@
       {% else %}
         {% for speaker in site.data.speakers.list %}
         {% if speaker.id == speaker_id %}
-          <a href="https://twitter.com/{{ speaker.twitter }}" class="talk__speaker-twitter">
-            <i class="icon-twitter"></i>
-            @{{ speaker.twitter }}
-          </a>
+          {% if speaker.twitter %}
+            <a href="https://twitter.com/{{ speaker.twitter }}" class="talk__speaker-twitter">
+              <i class="icon-twitter"></i>
+              @{{ speaker.twitter }}
+            </a>
+          {% endif %}
           {% break %}
         {% endif %}
         {% endfor %}

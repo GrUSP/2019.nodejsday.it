@@ -23,9 +23,11 @@
           <div class="speaker__description">
             {{ speaker.description }}
           </div>
-          <a class="speaker__twitter-link" href="https://twitter.com/{{ speaker.twitter }}">
-            @{{ speaker.twitter }}
-          </a>
+          {% if speaker.twitter %}
+            <a class="speaker__twitter-link" href="https://twitter.com/{{ speaker.twitter }}">
+              @{{ speaker.twitter }}
+            </a>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
