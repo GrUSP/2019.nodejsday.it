@@ -4,14 +4,19 @@
 list:
   -
     id: supriya-aggarwal
-    description: Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime, travelling, pigs, penguins and pineapple on pizza. Also, she can sleep literally anywhere.
+    description: >
+      Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime,
+      travelling, pigs, penguins and pineapple on pizza. Also, she can sleep literally anywhere.
     image: supriya-aggarwal.jpg
     first_name: Supriya
     last_name: Aggarwal
     twitter: 
   -
     id: colin-ihrig   
-    description: Colin Ihrig is a member of the Node.js Technical Steering Committee, a libuv collaborator, and a hapi.js core team member. Colin is the author of Pro Node.js for Developers, and co-author of Full Stack JavaScript Development with MEAN. Colin is currently an engineer at Joyent.
+    description: >
+      Colin Ihrig is a member of the Node.js Technical Steering Committee, a libuv collaborator, and a hapi.js core team
+      member. Colin is the author of Pro Node.js for Developers, and co-author of Full Stack JavaScript Development with
+      MEAN. Colin is currently an engineer at Joyent.
     image: colin-ihrig.jpg
     first_name: Colin
     last_name: Ihrig 
@@ -23,3 +28,13 @@ list:
    # first_name: Simona
    # last_name: Cotin 
    # twitter: simona_cotin    
+  -
+    id: tomas-della-vedova
+    description: >
+      Tomas is an enthusiastic software engineer, who spends most of his time programming in JavaScript and Node.js. He
+      works for Elastic as Senior Software Engineer in the clients team, focusing on the JavaScript client. Tomas is also
+      the author of the Fastify web framework and part of its ecosystem.
+    image: tomas-della-vedova.jpg
+    first_name: Tomas
+    last_name: Della Vedova
+    twitter: delvedor

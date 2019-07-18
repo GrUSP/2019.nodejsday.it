@@ -40,3 +40,15 @@
 #    After we explore our serverless API we will have a look at the more advanced features and standards
 #    around mutators and resolvers and then we will close by going all in, full serverless and deploy our graphql server 
 #    to a function in the cloud. 
+-
+  speaker_id: tomas-della-vedova
+  image: tomas-della-vedova.jpg
+  keynote: false
+  title: "I want to publish my first Open Source library"
+  extract: >
+    While working on a project, you wrote a utility to solve a problem. Then you started using it in other projects.
+    It looks like the code you wrote is very useful, and other people might benefit from it, so you decided to publish
+    it on GitHub. What should you do?
+    In this talk, we will discuss the benefits of Open Source, work with the community, choose a license, API design and
+    developer experience, the importance of writing test, and how to write proper documentation. You cannot miss any of
+    those if you want your library to be successful, and if it does, you will be a maintainer. And now?
