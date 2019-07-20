@@ -90,6 +90,9 @@ silver:
     -
       url: https://www.elastic.co/?utm_source=nodejsday
       image: elastic.svg      
+    -
+      url: https://balsamiq.com/?utm_source=nodejsday
+      image: balsamiq.svg
 
 bronze:
   price: € 500
@@ -99,6 +102,4 @@ bronze:
     - 2 tickets with 10% discount
   max: 32
   list:
-    -
-      url: https://balsamiq.com/?utm_source=nodejsday
-      image: balsamiq.svg
+
