@@ -87,6 +87,9 @@ silver:
     -
       url: https://www.flowing.it/?utm_source=nodejsday
       image: flowing.svg
+    -
+      url: https://www.elastic.co/?utm_source=nodejsday
+      image: elastic.svg      
 
 bronze:
   price: € 500
