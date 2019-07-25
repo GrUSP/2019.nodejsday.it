@@ -3,14 +3,14 @@
 # description is actually the company the speaker is working for
 list:
   -
-    id: supriya-aggarwal
+    id: alessandro-polidori
     description: >
-      Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime,
-      travelling, pigs, penguins and pineapple on pizza. Also, she can sleep literally anywhere.
-    image: supriya-aggarwal.jpg
-    first_name: Supriya
-    last_name: Aggarwal
-    twitter: 
+      Expert in Node.js and Linux he is involved in design, implementation of code that powers core services, REST APIs,
+      WebSocket communications and client side Web Applications with real-time WebRTC technologies, applied to VoIP PBX
+    image: alessandro-polidori.jpg
+    first_name: Alessandro
+    last_name: Polidori
+    twitter: ale_polidori
   -
     id: colin-ihrig   
     description: >

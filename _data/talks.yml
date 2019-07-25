@@ -1,4 +1,19 @@
 -
+  speaker_id: alessandro-polidori
+  image: alessandro-polidori.jpg
+  keynote: false
+  title: "A world of Rest APIs...from Restify to a faster Fastify"
+  extract: >
+    In this talk I will share my experience migrating completely an entire platform of REST APIs of a phone switchboard
+    system that serve thousands of customers in production.
+    The migration is from using Restify to the adoption of a more efficient and performant Fastify library. We will
+    consider the pros and cons of both solutions and how the performance has been increased with the simplicity of the
+    code. This story is real and is about a Computer Telephony Integration system (100% Node.js) that interacts with an
+    Asterisk VoIP PBX switchboard which serves thousands of customers in daily real-time audio and video communications.
+    We sill se how the micro service architecture allow us to achieve modular and independent components isolated from
+    each other and which can scale horizontally.
+
+-
   speaker_id: supriya-aggarwal
   image: supriya-aggarwal.jpg
   keynote: false
