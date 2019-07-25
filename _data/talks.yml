@@ -67,3 +67,11 @@
     In this talk, we will discuss the benefits of Open Source, work with the community, choose a license, API design and
     developer experience, the importance of writing test, and how to write proper documentation. You cannot miss any of
     those if you want your library to be successful, and if it does, you will be a maintainer. And now?
+-
+  speaker_id: yoni-goldberg
+  title: "What's new in Node.js testing"
+  extract: >
+    As the architecture of applications rapidly changes with dramatic changes (serverless, K8S, etc) so does the TESTING
+    world introduces a new offering to cope with the new challenges. This session aims to keep you up-to-date by packing
+    all those updates and opportunities into colorful demos: we're about to travel across the latest Node.js testing
+    trends, emerging & powerful techniques and neat tools like mutation testing, snapshots, fuzzing and others.

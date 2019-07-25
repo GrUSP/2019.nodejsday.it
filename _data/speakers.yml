@@ -47,3 +47,13 @@ list:
     first_name: Tomas
     last_name: Della Vedova
     twitter: delvedor
+  -
+    id: yoni-goldberg
+    description: >
+      Yoni Goldberg is an independent consultant who works with 500 fortune corporates and garage startups on polishing
+      their JS & Node.js applications. He's the author of Node's largest best practices collection (link below). More
+      than any other topic he is fascinated by and aims to master the art of testing.
+    image: yoni-goldberg.jpg
+    first_name: Yoni
+    last_name: Goldberg
+    twitter: nodepractices
