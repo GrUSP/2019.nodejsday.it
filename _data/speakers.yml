@@ -29,6 +29,15 @@ list:
    # last_name: Cotin 
    # twitter: simona_cotin    
   -
+    id: supriya-aggarwal
+    description: >
+      Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime,
+      travelling, pigs, penguins and pineapple on pizza. Also, she can sleep literally anywhere.
+    image: supriya-aggarwal.jpg
+    first_name: Supriya
+    last_name: Aggarwal
+    twitter:
+  -
     id: tomas-della-vedova
     description: >
       Tomas is an enthusiastic software engineer, who spends most of his time programming in JavaScript and Node.js. He
