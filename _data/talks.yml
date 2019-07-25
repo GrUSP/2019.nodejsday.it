@@ -1,7 +1,5 @@
 -
   speaker_id: alessandro-polidori
-  image: alessandro-polidori.jpg
-  keynote: false
   title: "A world of Rest APIs...from Restify to a faster Fastify"
   extract: >
     In this talk I will share my experience migrating completely an entire platform of REST APIs of a phone switchboard
@@ -15,8 +13,6 @@
 
 -
   speaker_id: supriya-aggarwal
-  image: supriya-aggarwal.jpg
-  keynote: false
   title: "Why GraphQL vs. Why not GraphQL"
   extract: >
     In the last few years, GraphQL has been growing in popularity. A lot of companies have started adopting this
@@ -25,8 +21,6 @@
     GraphQL so you can have a clearer idea of whether you need GraphQL, before you jump into using it at work.
 -
   speaker_id: colin-ihrig
-  image: colin-ihrig.jpg
-  keynote: false
   title: "Getting Started with gRPC and Node.js"
   extract: >
     gRPC is a language independent framework for making remote procedure calls used by large companies such as Netflix,
@@ -37,8 +31,6 @@
     the talk will discuss certain architectural tradeoffs that come with gRPC-based systems.
 -
 #  speaker_id: simona-cotin
-#  image: simona-cotin.jpg
-#  keynote: false
 #  title: "Build Scalable APIs using GraphQL and Serverless"
 #  extract: >
 #    Current trends in software and backend architecture have been evolving towards a more loosely coupled more granular design. 
@@ -57,8 +49,6 @@
 #    to a function in the cloud. 
 -
   speaker_id: tomas-della-vedova
-  image: tomas-della-vedova.jpg
-  keynote: false
   title: "I want to publish my first Open Source library"
   extract: >
     While working on a project, you wrote a utility to solve a problem. Then you started using it in other projects.
