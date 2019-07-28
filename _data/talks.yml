@@ -48,6 +48,15 @@
 #    around mutators and resolvers and then we will close by going all in, full serverless and deploy our graphql server 
 #    to a function in the cloud. 
 -
+  speaker_id: krzysztof-slonka
+  title: "Allegro.pl in flames"
+  extract: >
+    There is a quote by Donald Knuth: "Premature optimization is the root of all evil" - everyone seems to know it, but
+    how do we know it's true? When the time comes when we need to squeeze more juice out of our app, what should be
+    optimized? In this presentation, we will look at ways to analyze and optimize the performance of OpBox - the
+    service responsible for rendering the fifth most-visited online marketplace in Europe. I will mostly focus on flame
+    graph analysis, node.js profilers, worker_threads, v8 optimizations and performance tips.
+-
   speaker_id: tomas-della-vedova
   title: "I want to publish my first Open Source library"
   extract: >

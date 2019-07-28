@@ -27,7 +27,17 @@ list:
    # image: simona-cotin.jpg
    # first_name: Simona
    # last_name: Cotin 
-   # twitter: simona_cotin    
+   # twitter: simona_cotin
+  -
+    id: krzysztof-slonka
+    description: >
+      Krzysztof is a software engineer with a diverse background: back-end, front-end, Bluetooth Mesh and now Service
+      Mesh at Allegro. He has the most fun solving problems that require deep understanding of technology. Working on
+      performance improvements is one of the ways to really understand what's going on under the hood.
+    image: krzysztof-slonka.jpg
+    first_name: Krzysztof
+    last_name: Słonka
+    twitter: KrzysztofSlonka
   -
     id: supriya-aggarwal
     description: >
