@@ -21,13 +21,6 @@ list:
     first_name: Colin
     last_name: Ihrig 
     twitter: cjihrig
-  #-
-   # id: simona-cotin   
-   # description: Simona Cotin is a web developer with a passion for teaching. She spends most of her time tinkering with JavaScript in the cloud and sharing her experience with other developers at community events like meetups and conferences or online. As a Cloud Advocate, Simona engages with the web community to help create a great developer experience with Azure. She loves shipping code to production and has built network data analytics platforms using Angular, Typescript, React, and Node.
-   # image: simona-cotin.jpg
-   # first_name: Simona
-   # last_name: Cotin 
-   # twitter: simona_cotin
   -
     id: krzysztof-slonka
     description: >
