@@ -57,6 +57,15 @@
     service responsible for rendering the fifth most-visited online marketplace in Europe. I will mostly focus on flame
     graph analysis, node.js profilers, worker_threads, v8 optimizations and performance tips.
 -
+  speaker_id: olivier-loverde
+  title: "Designing Node.js applications for scalability, observability, maintainability and K8S deployability"
+  extract: >
+    In this talk, we will dig into:
+    1. Implement Clean Architecture (SOLID principles) for Node.js application using inversion of control and Typescript.
+    2. Implement Observability : K8S endpoints, logging, monitoring and alerting
+    3. Benchmark for scalability and correct bottleneck.
+    4. Best practices for container and K8S deployment.
+-
   speaker_id: tomas-della-vedova
   title: "I want to publish my first Open Source library"
   extract: >

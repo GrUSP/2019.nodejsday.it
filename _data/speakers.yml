@@ -39,6 +39,18 @@ list:
     last_name: Słonka
     twitter: KrzysztofSlonka
   -
+    id: olivier-loverde
+    description: >
+      Curious and eager for knowledge, Olivier is fascinated by all subject related to technology since he is 9y.o.
+      Beyond software engineering and designing high availability architecture, he loves micro-electronics (DYI),
+      biohacking and discovering foreign cultures. He is currently the CTO of Innovorder, a French startup providing an
+      omnichannel SaaS platform for restaurant groups (10M€ raised) where he is leading a team of highly talented
+      engineers.
+    image: olivier-loverde.jpg
+    first_name: Olivier
+    last_name: Loverde
+    twitter: loverdeolivier
+  -
     id: supriya-aggarwal
     description: >
       Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime,
