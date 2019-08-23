@@ -85,6 +85,9 @@ silver:
   max: 16
   list:
     -
+      url: http://allegro.tech/?utm_source=nodejsday
+      image: allegro.svg  
+    -
       url: https://www.flowing.it/?utm_source=nodejsday
       image: flowing.svg
     -
