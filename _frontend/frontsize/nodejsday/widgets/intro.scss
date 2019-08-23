@@ -22,8 +22,8 @@
   }
 
   @include media ('>=mobile-large') {
-    height: 100vh;
-    margin-top: 20px;
+    height: 350px;
+    margin-top: 50px;
   }
 
   @include media ('>=tablet-small') {
@@ -57,7 +57,7 @@
 
     @include media ('>=tablet-large') {
       font-size: 120px;
-      margin-top: s(21);
+      margin-top: s(16);
     }
 
     @include media ('>=desktop-large') {
@@ -65,10 +65,35 @@
     }
   }
 
+  @include element ('image') {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+
+    @include media ('<mobile-large') {
+      max-width: 150px;
+    }
+
+    @include media ('>=mobile-large') {
+      max-width: 200px;
+    }
+
+    @include media ('>=tablet-small') {
+      max-width: 250px;
+    }
+
+    @include media ('>=tablet-large') {
+      max-width: 400px;
+    }
+  }
+
   @include element ('where-when') {
     @include where-when;
     font-size: 40px;
     color: #ffffff;
+    text-align: center;
+    margin-top: s(2);
 
     @include media ('<tablet-small') {
       font-size: 20px;
