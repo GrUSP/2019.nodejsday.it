@@ -12,6 +12,14 @@ list:
     last_name: Polidori
     twitter: ale_polidori
   -
+    id: beth-griggs
+    description: >
+      Open Source Engineer - IBM. Software Engineer and scrum master working within IBM Runtime Technologies Node.js team. 
+    image: beth-griggs.jpg
+    first_name: Beth
+    last_name: Griggs
+    twitter: BethGriggs_  
+  -
     id: colin-ihrig   
     description: >
       Colin Ihrig is a member of the Node.js Technical Steering Committee, a libuv collaborator, and a hapi.js core team
