@@ -10,15 +10,11 @@
     Asterisk VoIP PBX switchboard which serves thousands of customers in daily real-time audio and video communications.
     We sill se how the micro service architecture allow us to achieve modular and independent components isolated from
     each other and which can scale horizontally.
-
 -
-  speaker_id: supriya-aggarwal
-  title: "Why GraphQL vs. Why not GraphQL"
+  speaker_id: beth-griggs
+  title: "Node.js: A Decade On"
   extract: >
-    In the last few years, GraphQL has been growing in popularity. A lot of companies have started adopting this
-    technology to build their APIs. It has been gaining a lot of traction. In this talk, we’ll first go on to see how
-    GraphQL overcomes some of the major limitations of REST. Post that, we’ll discuss some points on the case against
-    GraphQL so you can have a clearer idea of whether you need GraphQL, before you jump into using it at work.
+    Node.js has just celebrated its 10th birthday. With Node 12 just about to enter into long-term support, let us look at what is new, the people that have helped us get here, and how you can get involved too.
 -
   speaker_id: colin-ihrig
   title: "Getting Started with gRPC and Node.js"
@@ -47,6 +43,16 @@
     2. Implement Observability : K8S endpoints, logging, monitoring and alerting
     3. Benchmark for scalability and correct bottleneck.
     4. Best practices for container and K8S deployment.
+
+-
+  speaker_id: supriya-aggarwal
+  title: "Why GraphQL vs. Why not GraphQL"
+  extract: >
+    In the last few years, GraphQL has been growing in popularity. A lot of companies have started adopting this
+    technology to build their APIs. It has been gaining a lot of traction. In this talk, we’ll first go on to see how
+    GraphQL overcomes some of the major limitations of REST. Post that, we’ll discuss some points on the case against
+    GraphQL so you can have a clearer idea of whether you need GraphQL, before you jump into using it at work.
+
 -
   speaker_id: tomas-della-vedova
   title: "I want to publish my first Open Source library"
