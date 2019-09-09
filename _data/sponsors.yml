@@ -36,7 +36,7 @@ diamond:
     - 5 tickets with 20% discount
   max: 2
   list:
-      -
+    -
       url: https://www.ibm.com/it-it/cloud/?utm_source=nodejsday
       image: ibm.svg
 
