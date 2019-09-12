@@ -43,7 +43,17 @@
     2. Implement Observability : K8S endpoints, logging, monitoring and alerting
     3. Benchmark for scalability and correct bottleneck.
     4. Best practices for container and K8S deployment.
-
+-
+  speaker_id: suby-raman
+  title: "Web Authentication - Imagine a World Without Passwords"
+  extract: >
+    Passwords are a problem. We reuse them. We forget them. They’re tricky to implement and secure, as developers. They're easy to steal; 95% of all data breaches are due to weak or stolen credentials.
+    I've been part of a team that drove one of the first commercial implementations of Web Authentication, the Javascript API that is now widely available in browsers. 
+    The spec aims to provide a strategy for securing users across the internet using public key cryptography instead of passwords. 
+    It integrates with the strong authentication provided by devices, like Windows Hello or Apple’s Touch ID; instead of passwords, a user's fingerprint, retina, or voice can log into your website. 
+    In this talk I will dive into what you need to know to build a full-stack application that implements WebAuthn in Node.JS. 
+    I'll introduce the cryptographic concepts you will need to understand to implement the protocol in your application. I'll describe the user-experience and engineering challenges faced by my team in integrating the Web Authentication API into our product. 
+    I will conclude with thoughts on the prospects of Web Authentication, and why I feel it could have a significant impact on the way we developers think about security.
 -
   speaker_id: supriya-aggarwal
   title: "Why GraphQL vs. Why not GraphQL"
