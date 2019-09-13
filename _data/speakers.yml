@@ -52,6 +52,16 @@ list:
     last_name: Loverde
     twitter: loverdeolivier
   -
+    id: suby-raman
+    description: >
+      Suby Raman is a full-stack software engineer working for Duo Security out of Ann Arbor, Michigan. 
+      He has helped lead development of Duo's implementation of WebAuthn, now being widely used in Duo's two-factor authentication prompt.
+      He is also the author of Webauthn.Guide, a developer guide for understanding and implementing passwordless authentication. Notably, he has contributed over 175 custom emoji to Duo's Slack workspace.
+    image: suby-raman.jpg
+    first_name: Suby
+    last_name: Raman
+    twitter: subyraman    
+  -
     id: supriya-aggarwal
     description: >
       Supriya is a software engineer trying to keep up with the tech space one language at a time. She loves springtime,
