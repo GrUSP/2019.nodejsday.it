@@ -97,11 +97,11 @@ silver:
       url: https://www.elastic.co/?utm_source=nodejsday
       image: elastic.svg         
     -
+      url: https://flowing.it/?utm_source=nodejsday
+      image: flowing.svg
+    -
       url: https://www.voxnest.com/?utm_source=nodejsday
       image: voxnest.svg
-    -
-      url: https://balsamiq.com/?utm_source=nodejsday
-      image: balsamiq.svg      
 
 bronze:
   price: € 500
